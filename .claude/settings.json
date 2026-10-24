@@ -1,13 +1,20 @@
 {
+  "enabledPlugins": {
+    "day-trader-skill@day-trader-skill": true,
+    "ecc@ecc": true
+  },
   "extraKnownMarketplaces": {
     "day-trader-skill": {
       "source": {
         "source": "github",
         "repo": "Jakeschincariol/day-trader-skill"
       }
+    },
+    "ecc": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/affaan-m/ECC.git"
+      }
     }
-  },
-  "enabledPlugins": {
-    "day-trader-skill@day-trader-skill": true
   }
 }
